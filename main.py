@@ -17,7 +17,7 @@ birth_day = int(birthday_input[2])
 
 
 
-# Now taking the input accodring to the user's wishes
+# storing the current date month and year
 
 current_year = date.today().year
 current_month = date.today().month
@@ -25,7 +25,6 @@ current_day = date.today().day
 
 
 
-# Now there can be several condition the birthday day and birth month may be bigger or smaller than current date and or month
 
 
 
@@ -34,6 +33,8 @@ current_day = date.today().day
 calculated_day = 0
 calculated_month = 0
 calculated_year = 0
+
+# Now there can be several condition the birthday day and birth month may be bigger or smaller than current date and or month
 
 # Firstly we will check if the birth month is  greater than current  month and birthday is greater than current day
 if birth_month > current_month and birth_day > current_day:
